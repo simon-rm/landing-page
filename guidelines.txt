@@ -1,0 +1,6 @@
+Resources: Images, logo, spline? codepen
+style: neon sleek, simple (glow glow glow glow!)
+1. create html
+2. add css
+3. add fancy glow
+4.

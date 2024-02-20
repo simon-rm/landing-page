@@ -1,0 +1,60 @@
+footer{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 1rem 2rem;
+  border-top: 2px solid var(--bg-secondary);
+
+  *{
+    flex: 1;
+  }
+
+  #social-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    gap: 20px;
+    .social-icon{
+      color: var(--text-primary);
+      font-size: large;
+      &:hover{
+        transition: color 0.3s ease;
+        color: var(--accent-primary);
+      }
+    }
+  }
+  address{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+    gap: 10px;
+  }
+#contact-form{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  button{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    font-size: large;
+    cursor: pointer;
+    &:hover{
+      transition: background-color 0.3s ease;
+      background-color: var(--accent-primary);
+    }
+  }
+  input, textarea{
+    resize: none;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--bg-secondary);
+  }
+}
+}

@@ -1,0 +1,51 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+@import url('components/footer.css');
+@import url('components/hero.css');
+@import url('components/nav.css');
+@import url('components/product.css');
+@import url('components/product-section.css');
+@import url("imported/glow.css");
+@import url("imported/wavy.css");
+
+/* Utilities */
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: #111418;
+  --bg-secondary: #393E46;
+  --text-primary: #EEEEEE;
+  --accent-primary: #b300c3;
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Roboto', sans-serif;
+  --nav-height: 50px;
+}
+
+body{
+  color: var(--text-primary);
+  background-color:var(--bg-primary);
+  overflow-x: hidden;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/* Custom design below! */

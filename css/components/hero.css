@@ -1,0 +1,32 @@
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://static.wixstatic.com/media/809cf8_376cd7b85f6649b0b00428868b02bb6f~mv2.webp");
+  background-size: cover;
+  height: calc(100vh - var(--nav-height));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  .title {
+    color: var(--accent-primary);
+    font-size: xxx-large;
+  }
+
+  .subtitle {
+    color: var(--text-primary);
+    font-size: medium;
+    font-weight: light;
+    opacity: 0.8;
+  }
+
+  .cta-button {
+    background-color: var(--bg-secondary);
+    color: white;
+    box-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px var(--accent-primary),
+      0 0 151px var(--accent-primary);
+  }
+}
