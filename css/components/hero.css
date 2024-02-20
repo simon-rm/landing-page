@@ -1,6 +1,4 @@
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://static.wixstatic.com/media/809cf8_376cd7b85f6649b0b00428868b02bb6f~mv2.webp");
-  background-size: cover;
   height: calc(100vh - var(--nav-height));
   display: flex;
   flex-direction: column;

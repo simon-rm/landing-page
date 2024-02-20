@@ -4,7 +4,7 @@ footer{
   align-items:center;
   padding: 1rem 2rem;
   border-top: 2px solid var(--bg-secondary);
-
+  background-color: #11141866;
   *{
     flex: 1;
   }

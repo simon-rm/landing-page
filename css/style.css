@@ -11,6 +11,7 @@
 @import url('components/product-section.css');
 @import url("imported/glow.css");
 @import url("imported/wavy.css");
+@import url("imported/card.css");
 
 /* Utilities */
 *, ::before, ::after {
@@ -30,6 +31,8 @@
 }
 
 body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://static.wixstatic.com/media/809cf8_376cd7b85f6649b0b00428868b02bb6f~mv2.webp");
+  background-size: contain;
   color: var(--text-primary);
   background-color:var(--bg-primary);
   overflow-x: hidden;
